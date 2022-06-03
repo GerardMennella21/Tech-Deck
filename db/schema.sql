@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS tech-deck-db;
+DROP DATABASE IF EXISTS tech_deck_db;
 
-CREATE DATABASE tech-deck-db;
+CREATE DATABASE tech_deck_db;
