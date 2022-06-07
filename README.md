@@ -6,7 +6,6 @@ Tech-Deck by Gerard Mennella
 
 # Screenshots
 ![Screenshot](./screenshots/homeScrnsht.png)
-![Screenshot](./screenshots/dashScrnsht.png)
-![Screenshot](./screenshots/postScrnsht.png)
 
 # Deployed Application
+https://stormy-lowlands-21347.herokuapp.com/
