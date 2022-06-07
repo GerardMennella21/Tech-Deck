@@ -1,11 +1,13 @@
-<article class="post">
-    <div class="title">
-    <a class="text-info" href="{{post_url}}" target="_blank">{{title}}</a>
-    </div>
-    <div class="meta">
-    {{vote_count}} {{format_plural "like" vote_count}} | created by {{user.username}} on
-    {{format_date created_at}}
-    |
-    <a class="text-info" href="/post/{{id}}">{{comments.length}} comment(s)</a>
-    </div>
-</article>
+<a href="/post/{{id}}" class="text-decoration-none">
+    <article class="post text-info">
+            <div class="title">
+            {{title}}
+            </div>
+            <div class="meta">
+            {{vote_count}} {{format_plural "like" vote_count}} | created by {{user.username}} on
+            {{format_date created_at}}
+            |
+            {{comments.length}} comment(s)
+            </div>        
+    </article>
+</a>

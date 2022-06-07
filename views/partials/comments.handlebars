@@ -1,12 +1,12 @@
-<div class="comments">
+<div class="comments d-flex flex-column align-items-center">
   {{#each this}}
-  <section class="comment text-center col-10 mt-3 mb-3">
-    <div class="text-info border border-light rounded">
-      {{user.username}} on {{format_date created_at}}
-    </div>
-    <div class="border  border-light rounded">
+  <section class="comment border overflow-hidden border-light p-3 rounded-pill text-center col-10 mt-3 mb-3">
+    <h5 class="text-info p-2 border-bottom">
+      By {{user.username}} on {{format_date created_at}}
+    </h2>
+    <p>
       {{comment_text}}
-    </div>
+    </p>
   </section>
   {{/each}}
 </div>
